@@ -23,5 +23,4 @@ public class BannerRenderTest {
             bannerRender.renderBanner("MAC","IE");
             assertEquals("Render finished!", outContent.toString());
         }
-
 }
