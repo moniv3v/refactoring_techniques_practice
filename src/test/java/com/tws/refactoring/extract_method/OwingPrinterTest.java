@@ -22,12 +22,6 @@ public class OwingPrinterTest {
     }
     @Test
     public void printOwing() {
-//        System.out.print("hello");
-//        assertEquals("hello", outContent.toString());
-    }
-
-    @Test
-    public void should_print_owing(){
         double amount = 2.5;
         OwingPrinter owingPrinter = new OwingPrinter();
         Order order = new Order(amount);
